@@ -1,0 +1,6 @@
+2026-05-09 10:30:12 | INFO | bot.client | Binance Futures Testnet client created for https://testnet.binancefuture.com
+2026-05-09 10:30:12 | INFO | trading_bot.cli | CLI request received for symbol=BTCUSDT side=BUY type=MARKET quantity=0.001 price=None
+2026-05-09 10:30:13 | INFO | trading_bot.cli | Submitting Binance Futures order request: {"symbol": "BTCUSDT", "side": "BUY", "type": "MARKET", "quantity": "0.001", "newOrderRespType": "RESULT"}
+2026-05-09 10:30:14 | INFO | trading_bot.cli | Binance order response: {"orderId": 12837465, "symbol": "BTCUSDT", "status": "FILLED", "executedQty": "0.001"}
+2026-05-09 10:31:40 | ERROR | trading_bot.cli | Order placement failed: Binance API rejected the order: HTTP 400 | code -1111 | Precision is over the maximum defined for this asset.
+2026-05-09 20:20:01 | WARNING | trading_bot.cli | Validation failed: Price is required.
