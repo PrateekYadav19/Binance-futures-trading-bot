@@ -100,7 +100,6 @@ def print_warning(message: str) -> None:
 def print_error(message: str) -> None:
     print(f"{Fore.RED}{message}{Style.RESET_ALL}", file=sys.stderr)
 
-
 def main() -> int:
     """Run the CLI workflow."""
     just_fix_windows_console()
