@@ -4,3 +4,4 @@
 2026-05-09 10:30:14 | INFO | trading_bot.cli | Binance order response: {"orderId": 12837465, "symbol": "BTCUSDT", "status": "FILLED", "executedQty": "0.001"}
 2026-05-09 10:31:40 | ERROR | trading_bot.cli | Order placement failed: Binance API rejected the order: HTTP 400 | code -1111 | Precision is over the maximum defined for this asset.
 2026-05-09 20:20:01 | WARNING | trading_bot.cli | Validation failed: Price is required.
+
