@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-
 try:
     from colorama import Fore, Style, just_fix_windows_console
 except ImportError:  # pragma: no cover - exercised at runtime if deps are missing.
