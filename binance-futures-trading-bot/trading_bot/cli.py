@@ -131,7 +131,6 @@ def main() -> int:
 
         client = get_futures_client()
         verify_futures_connectivity(client)
-
         symbol_info = get_futures_symbol_info(client, order_request.symbol)
         validate_symbol_metadata(symbol_info, order_request.symbol)
         validate_order_against_symbol_filters(order_request, symbol_info)
