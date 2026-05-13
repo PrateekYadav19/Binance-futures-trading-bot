@@ -177,6 +177,5 @@ def main() -> int:
         return 99
     finally:
         close_client(client)
-
 if __name__ == "__main__":
     raise SystemExit(main())
