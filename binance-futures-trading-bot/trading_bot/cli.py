@@ -14,7 +14,6 @@ except ImportError:  # pragma: no cover - exercised at runtime if deps are missi
         CYAN = ""
         YELLOW = ""
         RESET_ALL = ""
-
     Fore = Style = _PlainColor()  # type: ignore[assignment]
 
     def just_fix_windows_console() -> None:
