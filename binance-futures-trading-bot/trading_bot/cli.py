@@ -107,7 +107,6 @@ def main() -> int:
     logger = logging.getLogger("trading_bot.cli")
 
     client = None
-
     try:
         order_request = build_order_request(
             symbol=args.symbol,
