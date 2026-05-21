@@ -132,7 +132,6 @@ def main() -> int:
         validate_order_against_symbol_filters(order_request, symbol_info)
 
         response = place_futures_order(client, order_request, logger=logger)
-
         print_success("\nSuccess: Order accepted by Binance Futures Testnet.")
         print_info("\nOrder Response")
         print(format_order_response(response))
