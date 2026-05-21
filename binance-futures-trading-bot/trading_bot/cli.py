@@ -81,8 +81,6 @@ def parse_args() -> argparse.Namespace:
         help="Enable debug-level logging.",
     )
     return parser.parse_args()
-
-
 def print_info(message: str) -> None:
     print(f"{Fore.CYAN}{message}{Style.RESET_ALL}")
 
