@@ -112,7 +112,6 @@ def main() -> int:
             quantity=args.quantity,
             price=args.price,
         )
-
         logger.info(
             "CLI request received for symbol=%s side=%s type=%s quantity=%s price=%s",
             order_request.symbol,
